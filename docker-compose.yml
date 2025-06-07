@@ -1,0 +1,58 @@
+version: '3.7'
+
+services:
+
+  back:
+    container_name: kairat-web-api
+    build:
+      context: ./
+      dockerfile: web-api.Dockerfile
+    depends_on:
+      - pg
+    env_file:
+      - ./.env
+    ports:
+      - "8025:8025"
+    volumes:
+      - .:/app
+      - ./media:/app/media
+
+  #  front:
+#    build: ./zherdesh-prod
+#    volumes:
+#      - .:/app
+#      - /app/node_modules
+#      - /app/.next
+#    ports:
+#      - "3000:3000"
+
+
+#  pg:
+#    image: postgres:latest
+#    restart: always
+#    env_file:
+#      - .env
+#    volumes:
+#      - ./pg_data:/var/lib/postgresql/data
+#    ports:
+#      - 5435:5432
+
+#  nginx:
+#    image: jonasal/nginx-certbot:5.0.0
+#    restart: unless-stopped
+#    depends_on:
+#      - app
+#    env_file:
+#      - ./.env
+#    ports:
+#      - "80:80"
+#      - "443:443"
+#    volumes:
+#      - ./services/nginx/user_conf.d:/etc/nginx/user_conf.d
+#      - ./services/certbot/letsencrypt:/etc/letsencrypt
+#      - ./staticfiles:/var/www/app/static
+
+#volumes:
+#  postgres-data:
+#  nginx_secrets:
+

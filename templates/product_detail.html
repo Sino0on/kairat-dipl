@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% block title %}{{ product.title }}{% endblock %}
+{% block css %}
+<style>
+    .product-img {
+        max-height: 400px;
+        object-fit: cover;
+    }
+    .best-offer {
+        background-color: #e6f9e6;
+    }
+</style>
+{% endblock %}
+{% block content %}
+
+<div class="container py-5">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            {% if product.image %}
+                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded product-img">
+            {% else %}
+                <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 300px;">
+                    Нет изображения
+                </div>
+            {% endif %}
+        </div>
+        <div class="col-md-6">
+            <h2>{{ product.name }}</h2>
+            <p class="text-muted">{{ product.description }}</p>
+            <p><strong>Категория:</strong> {{ product.category.title }}</p>
+            <p><strong>Артикул:</strong> {{ product.sku }}</p>
+            <p><strong>Рекомендованная цена:</strong> {{ product.base_price }} сом</p>
+        </div>
+    </div>
+
+    <h4>Цены в магазинах:</h4>
+    {% if store_prices %}
+        <table class="table table-bordered table-hover mt-3">
+            <thead class="table-light">
+                <tr>
+                    <th>Магазин</th>
+                    <th>Цена</th>
+                    <th>Комментарий</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for sp in store_prices %}
+                    <tr class="{% if sp.price == best_price %}best-offer{% endif %}">
+                        <td>{{ sp.get_store_display }}</td>
+                        <td>
+                            {{ sp.price }} сом
+                            {% if sp.price == best_price %}
+                                <span class="badge bg-success ms-2">Самое выгодное предложение</span>
+                            {% endif %}
+                        </td>
+                        <td>{% if sp.price == best_price %}Лучший выбор{% else %}—{% endif %}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="text-muted">Нет данных о ценах в магазинах.</p>
+    {% endif %}
+</div>
+
+{% endblock %}

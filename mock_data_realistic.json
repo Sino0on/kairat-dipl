@@ -1,0 +1,2242 @@
+[
+    {
+        "model": "main.category",
+        "pk": 1,
+        "fields": {
+            "title": "Фрукты",
+            "description": "Раздел с продуктами: фрукты",
+            "created_at": "2025-06-07T08:25:08.770065"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 2,
+        "fields": {
+            "title": "Овощи",
+            "description": "Раздел с продуктами: овощи",
+            "created_at": "2025-06-07T08:25:08.770077"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 3,
+        "fields": {
+            "title": "Молочные продукты",
+            "description": "Раздел с продуктами: молочные продукты",
+            "created_at": "2025-06-07T08:25:08.770080"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 4,
+        "fields": {
+            "title": "Мясо и птица",
+            "description": "Раздел с продуктами: мясо и птица",
+            "created_at": "2025-06-07T08:25:08.770083"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 5,
+        "fields": {
+            "title": "Хлеб и выпечка",
+            "description": "Раздел с продуктами: хлеб и выпечка",
+            "created_at": "2025-06-07T08:25:08.770086"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 6,
+        "fields": {
+            "title": "Замороженные продукты",
+            "description": "Раздел с продуктами: замороженные продукты",
+            "created_at": "2025-06-07T08:25:08.770089"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 7,
+        "fields": {
+            "title": "Напитки",
+            "description": "Раздел с продуктами: напитки",
+            "created_at": "2025-06-07T08:25:08.770092"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 8,
+        "fields": {
+            "title": "Кондитерские изделия",
+            "description": "Раздел с продуктами: кондитерские изделия",
+            "created_at": "2025-06-07T08:25:08.770096"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 9,
+        "fields": {
+            "title": "Крупы и макароны",
+            "description": "Раздел с продуктами: крупы и макароны",
+            "created_at": "2025-06-07T08:25:08.770099"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 10,
+        "fields": {
+            "title": "Соусы и специи",
+            "description": "Раздел с продуктами: соусы и специи",
+            "created_at": "2025-06-07T08:25:08.770102"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 1,
+        "fields": {
+            "name": "Яблоко",
+            "sku": "SKU-1001",
+            "description": "Свежий продукт: яблоко",
+            "image": "",
+            "base_price": 204.33,
+            "is_active": true,
+            "category": 1,
+            "created_at": "2025-04-22T08:25:08.770382",
+            "updated_at": "2025-06-07T08:25:08.770395"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 2,
+        "fields": {
+            "name": "Банан",
+            "sku": "SKU-1002",
+            "description": "Свежий продукт: банан",
+            "image": "",
+            "base_price": 179.67,
+            "is_active": true,
+            "category": 1,
+            "created_at": "2025-05-27T08:25:08.770429",
+            "updated_at": "2025-06-07T08:25:08.770436"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 3,
+        "fields": {
+            "name": "Апельсин",
+            "sku": "SKU-1003",
+            "description": "Свежий продукт: апельсин",
+            "image": "",
+            "base_price": 260.85,
+            "is_active": true,
+            "category": 1,
+            "created_at": "2025-03-17T08:25:08.770452",
+            "updated_at": "2025-06-07T08:25:08.770455"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 4,
+        "fields": {
+            "name": "Груша",
+            "sku": "SKU-1004",
+            "description": "Свежий продукт: груша",
+            "image": "",
+            "base_price": 446.49,
+            "is_active": true,
+            "category": 1,
+            "created_at": "2025-05-17T08:25:08.770469",
+            "updated_at": "2025-06-07T08:25:08.770474"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 5,
+        "fields": {
+            "name": "Манго",
+            "sku": "SKU-1005",
+            "description": "Свежий продукт: манго",
+            "image": "",
+            "base_price": 467.45,
+            "is_active": true,
+            "category": 1,
+            "created_at": "2025-05-24T08:25:08.770494",
+            "updated_at": "2025-06-07T08:25:08.770498"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 6,
+        "fields": {
+            "name": "Виноград",
+            "sku": "SKU-1006",
+            "description": "Свежий продукт: виноград",
+            "image": "",
+            "base_price": 284.39,
+            "is_active": true,
+            "category": 1,
+            "created_at": "2025-04-19T08:25:08.770515",
+            "updated_at": "2025-06-07T08:25:08.770518"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 7,
+        "fields": {
+            "name": "Помидор",
+            "sku": "SKU-1007",
+            "description": "Свежий продукт: помидор",
+            "image": "",
+            "base_price": 70.98,
+            "is_active": true,
+            "category": 2,
+            "created_at": "2025-04-03T08:25:08.770535",
+            "updated_at": "2025-06-07T08:25:08.770539"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 8,
+        "fields": {
+            "name": "Огурец",
+            "sku": "SKU-1008",
+            "description": "Свежий продукт: огурец",
+            "image": "",
+            "base_price": 289.9,
+            "is_active": true,
+            "category": 2,
+            "created_at": "2025-03-07T08:25:08.770560",
+            "updated_at": "2025-06-07T08:25:08.770566"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 9,
+        "fields": {
+            "name": "Картофель",
+            "sku": "SKU-1009",
+            "description": "Свежий продукт: картофель",
+            "image": "",
+            "base_price": 217.7,
+            "is_active": true,
+            "category": 2,
+            "created_at": "2025-04-10T08:25:08.770587",
+            "updated_at": "2025-06-07T08:25:08.770593"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 10,
+        "fields": {
+            "name": "Морковь",
+            "sku": "SKU-1010",
+            "description": "Свежий продукт: морковь",
+            "image": "",
+            "base_price": 22.32,
+            "is_active": true,
+            "category": 2,
+            "created_at": "2025-03-06T08:25:08.770613",
+            "updated_at": "2025-06-07T08:25:08.770616"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 11,
+        "fields": {
+            "name": "Капуста",
+            "sku": "SKU-1011",
+            "description": "Свежий продукт: капуста",
+            "image": "",
+            "base_price": 103.08,
+            "is_active": true,
+            "category": 2,
+            "created_at": "2025-03-10T08:25:08.770634",
+            "updated_at": "2025-06-07T08:25:08.770638"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 12,
+        "fields": {
+            "name": "Болгарский перец",
+            "sku": "SKU-1012",
+            "description": "Свежий продукт: болгарский перец",
+            "image": "",
+            "base_price": 477.42,
+            "is_active": true,
+            "category": 2,
+            "created_at": "2025-03-16T08:25:08.770664",
+            "updated_at": "2025-06-07T08:25:08.770667"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 13,
+        "fields": {
+            "name": "Молоко",
+            "sku": "SKU-1013",
+            "description": "Свежий продукт: молоко",
+            "image": "",
+            "base_price": 291.81,
+            "is_active": true,
+            "category": 3,
+            "created_at": "2025-05-25T08:25:08.770681",
+            "updated_at": "2025-06-07T08:25:08.770686"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 14,
+        "fields": {
+            "name": "Сметана",
+            "sku": "SKU-1014",
+            "description": "Свежий продукт: сметана",
+            "image": "",
+            "base_price": 212.66,
+            "is_active": true,
+            "category": 3,
+            "created_at": "2025-05-12T08:25:08.770707",
+            "updated_at": "2025-06-07T08:25:08.770713"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 15,
+        "fields": {
+            "name": "Кефир",
+            "sku": "SKU-1015",
+            "description": "Свежий продукт: кефир",
+            "image": "",
+            "base_price": 250.18,
+            "is_active": true,
+            "category": 3,
+            "created_at": "2025-04-06T08:25:08.770735",
+            "updated_at": "2025-06-07T08:25:08.770741"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 16,
+        "fields": {
+            "name": "Творог",
+            "sku": "SKU-1016",
+            "description": "Свежий продукт: творог",
+            "image": "",
+            "base_price": 280.48,
+            "is_active": true,
+            "category": 3,
+            "created_at": "2025-05-09T08:25:08.770762",
+            "updated_at": "2025-06-07T08:25:08.770767"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 17,
+        "fields": {
+            "name": "Йогурт",
+            "sku": "SKU-1017",
+            "description": "Свежий продукт: йогурт",
+            "image": "",
+            "base_price": 74.88,
+            "is_active": true,
+            "category": 3,
+            "created_at": "2025-04-23T08:25:08.770787",
+            "updated_at": "2025-06-07T08:25:08.770793"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 18,
+        "fields": {
+            "name": "Сыр",
+            "sku": "SKU-1018",
+            "description": "Свежий продукт: сыр",
+            "image": "",
+            "base_price": 48.79,
+            "is_active": true,
+            "category": 3,
+            "created_at": "2025-04-27T08:25:08.770823",
+            "updated_at": "2025-06-07T08:25:08.770835"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 19,
+        "fields": {
+            "name": "Говядина",
+            "sku": "SKU-1019",
+            "description": "Свежий продукт: говядина",
+            "image": "",
+            "base_price": 365.54,
+            "is_active": true,
+            "category": 4,
+            "created_at": "2025-03-02T08:25:08.770852",
+            "updated_at": "2025-06-07T08:25:08.770855"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 20,
+        "fields": {
+            "name": "Свинина",
+            "sku": "SKU-1020",
+            "description": "Свежий продукт: свинина",
+            "image": "",
+            "base_price": 270.69,
+            "is_active": true,
+            "category": 4,
+            "created_at": "2025-05-17T08:25:08.770878",
+            "updated_at": "2025-06-07T08:25:08.770883"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 21,
+        "fields": {
+            "name": "Курица",
+            "sku": "SKU-1021",
+            "description": "Свежий продукт: курица",
+            "image": "",
+            "base_price": 178.15,
+            "is_active": true,
+            "category": 4,
+            "created_at": "2025-03-22T08:25:08.770924",
+            "updated_at": "2025-06-07T08:25:08.770929"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 22,
+        "fields": {
+            "name": "Индейка",
+            "sku": "SKU-1022",
+            "description": "Свежий продукт: индейка",
+            "image": "",
+            "base_price": 84.63,
+            "is_active": true,
+            "category": 4,
+            "created_at": "2025-02-27T08:25:08.770943",
+            "updated_at": "2025-06-07T08:25:08.770946"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 23,
+        "fields": {
+            "name": "Баранина",
+            "sku": "SKU-1023",
+            "description": "Свежий продукт: баранина",
+            "image": "",
+            "base_price": 438.2,
+            "is_active": true,
+            "category": 4,
+            "created_at": "2025-03-09T08:25:08.770955",
+            "updated_at": "2025-06-07T08:25:08.770958"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 24,
+        "fields": {
+            "name": "Фарш",
+            "sku": "SKU-1024",
+            "description": "Свежий продукт: фарш",
+            "image": "",
+            "base_price": 394.22,
+            "is_active": true,
+            "category": 4,
+            "created_at": "2025-04-11T08:25:08.770971",
+            "updated_at": "2025-06-07T08:25:08.770974"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 25,
+        "fields": {
+            "name": "Батон",
+            "sku": "SKU-1025",
+            "description": "Свежий продукт: батон",
+            "image": "",
+            "base_price": 348.38,
+            "is_active": true,
+            "category": 5,
+            "created_at": "2025-04-11T08:25:08.770984",
+            "updated_at": "2025-06-07T08:25:08.770987"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 26,
+        "fields": {
+            "name": "Багет",
+            "sku": "SKU-1026",
+            "description": "Свежий продукт: багет",
+            "image": "",
+            "base_price": 233.14,
+            "is_active": true,
+            "category": 5,
+            "created_at": "2025-05-29T08:25:08.771005",
+            "updated_at": "2025-06-07T08:25:08.771009"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 27,
+        "fields": {
+            "name": "Булочка",
+            "sku": "SKU-1027",
+            "description": "Свежий продукт: булочка",
+            "image": "",
+            "base_price": 372.08,
+            "is_active": true,
+            "category": 5,
+            "created_at": "2025-03-08T08:25:08.771024",
+            "updated_at": "2025-06-07T08:25:08.771028"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 28,
+        "fields": {
+            "name": "Хлеб ржаной",
+            "sku": "SKU-1028",
+            "description": "Свежий продукт: хлеб ржаной",
+            "image": "",
+            "base_price": 359.62,
+            "is_active": true,
+            "category": 5,
+            "created_at": "2025-03-01T08:25:08.771037",
+            "updated_at": "2025-06-07T08:25:08.771040"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 29,
+        "fields": {
+            "name": "Круассан",
+            "sku": "SKU-1029",
+            "description": "Свежий продукт: круассан",
+            "image": "",
+            "base_price": 456.0,
+            "is_active": true,
+            "category": 5,
+            "created_at": "2025-03-31T08:25:08.771057",
+            "updated_at": "2025-06-07T08:25:08.771062"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 30,
+        "fields": {
+            "name": "Слойка",
+            "sku": "SKU-1030",
+            "description": "Свежий продукт: слойка",
+            "image": "",
+            "base_price": 105.8,
+            "is_active": true,
+            "category": 5,
+            "created_at": "2025-05-01T08:25:08.771082",
+            "updated_at": "2025-06-07T08:25:08.771089"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 31,
+        "fields": {
+            "name": "Пельмени",
+            "sku": "SKU-1031",
+            "description": "Свежий продукт: пельмени",
+            "image": "",
+            "base_price": 117.89,
+            "is_active": true,
+            "category": 6,
+            "created_at": "2025-04-30T08:25:08.771112",
+            "updated_at": "2025-06-07T08:25:08.771118"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 32,
+        "fields": {
+            "name": "Вареники",
+            "sku": "SKU-1032",
+            "description": "Свежий продукт: вареники",
+            "image": "",
+            "base_price": 309.56,
+            "is_active": true,
+            "category": 6,
+            "created_at": "2025-04-05T08:25:08.771132",
+            "updated_at": "2025-06-07T08:25:08.771135"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 33,
+        "fields": {
+            "name": "Овощная смесь",
+            "sku": "SKU-1033",
+            "description": "Свежий продукт: овощная смесь",
+            "image": "",
+            "base_price": 41.7,
+            "is_active": true,
+            "category": 6,
+            "created_at": "2025-05-24T08:25:08.771153",
+            "updated_at": "2025-06-07T08:25:08.771157"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 34,
+        "fields": {
+            "name": "Пицца",
+            "sku": "SKU-1034",
+            "description": "Свежий продукт: пицца",
+            "image": "",
+            "base_price": 192.45,
+            "is_active": true,
+            "category": 6,
+            "created_at": "2025-03-13T08:25:08.771171",
+            "updated_at": "2025-06-07T08:25:08.771174"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 35,
+        "fields": {
+            "name": "Наггетсы",
+            "sku": "SKU-1035",
+            "description": "Свежий продукт: наггетсы",
+            "image": "",
+            "base_price": 245.08,
+            "is_active": true,
+            "category": 6,
+            "created_at": "2025-03-02T08:25:08.771187",
+            "updated_at": "2025-06-07T08:25:08.771190"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 36,
+        "fields": {
+            "name": "Котлеты",
+            "sku": "SKU-1036",
+            "description": "Свежий продукт: котлеты",
+            "image": "",
+            "base_price": 186.3,
+            "is_active": true,
+            "category": 6,
+            "created_at": "2025-04-22T08:25:08.771199",
+            "updated_at": "2025-06-07T08:25:08.771203"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 37,
+        "fields": {
+            "name": "Минеральная вода",
+            "sku": "SKU-1037",
+            "description": "Свежий продукт: минеральная вода",
+            "image": "",
+            "base_price": 348.61,
+            "is_active": true,
+            "category": 7,
+            "created_at": "2025-06-04T08:25:08.771220",
+            "updated_at": "2025-06-07T08:25:08.771223"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 38,
+        "fields": {
+            "name": "Сок яблочный",
+            "sku": "SKU-1038",
+            "description": "Свежий продукт: сок яблочный",
+            "image": "",
+            "base_price": 275.63,
+            "is_active": true,
+            "category": 7,
+            "created_at": "2025-04-09T08:25:08.771240",
+            "updated_at": "2025-06-07T08:25:08.771244"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 39,
+        "fields": {
+            "name": "Сок апельсиновый",
+            "sku": "SKU-1039",
+            "description": "Свежий продукт: сок апельсиновый",
+            "image": "",
+            "base_price": 208.13,
+            "is_active": true,
+            "category": 7,
+            "created_at": "2025-05-25T08:25:08.771253",
+            "updated_at": "2025-06-07T08:25:08.771256"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 40,
+        "fields": {
+            "name": "Кола",
+            "sku": "SKU-1040",
+            "description": "Свежий продукт: кола",
+            "image": "",
+            "base_price": 161.51,
+            "is_active": true,
+            "category": 7,
+            "created_at": "2025-04-19T08:25:08.771265",
+            "updated_at": "2025-06-07T08:25:08.771269"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 41,
+        "fields": {
+            "name": "Фанта",
+            "sku": "SKU-1041",
+            "description": "Свежий продукт: фанта",
+            "image": "",
+            "base_price": 240.82,
+            "is_active": true,
+            "category": 7,
+            "created_at": "2025-06-03T08:25:08.771278",
+            "updated_at": "2025-06-07T08:25:08.771280"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 42,
+        "fields": {
+            "name": "Компот",
+            "sku": "SKU-1042",
+            "description": "Свежий продукт: компот",
+            "image": "",
+            "base_price": 442.78,
+            "is_active": true,
+            "category": 7,
+            "created_at": "2025-05-27T08:25:08.771297",
+            "updated_at": "2025-06-07T08:25:08.771300"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 43,
+        "fields": {
+            "name": "Шоколад",
+            "sku": "SKU-1043",
+            "description": "Свежий продукт: шоколад",
+            "image": "",
+            "base_price": 66.7,
+            "is_active": true,
+            "category": 8,
+            "created_at": "2025-03-29T08:25:08.771311",
+            "updated_at": "2025-06-07T08:25:08.771314"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 44,
+        "fields": {
+            "name": "Конфеты",
+            "sku": "SKU-1044",
+            "description": "Свежий продукт: конфеты",
+            "image": "",
+            "base_price": 373.63,
+            "is_active": true,
+            "category": 8,
+            "created_at": "2025-03-26T08:25:08.771329",
+            "updated_at": "2025-06-07T08:25:08.771332"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 45,
+        "fields": {
+            "name": "Печенье",
+            "sku": "SKU-1045",
+            "description": "Свежий продукт: печенье",
+            "image": "",
+            "base_price": 376.05,
+            "is_active": true,
+            "category": 8,
+            "created_at": "2025-04-01T08:25:08.771348",
+            "updated_at": "2025-06-07T08:25:08.771351"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 46,
+        "fields": {
+            "name": "Торт",
+            "sku": "SKU-1046",
+            "description": "Свежий продукт: торт",
+            "image": "",
+            "base_price": 63.44,
+            "is_active": true,
+            "category": 8,
+            "created_at": "2025-05-07T08:25:08.771360",
+            "updated_at": "2025-06-07T08:25:08.771363"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 47,
+        "fields": {
+            "name": "Зефир",
+            "sku": "SKU-1047",
+            "description": "Свежий продукт: зефир",
+            "image": "",
+            "base_price": 111.51,
+            "is_active": true,
+            "category": 8,
+            "created_at": "2025-05-19T08:25:08.771379",
+            "updated_at": "2025-06-07T08:25:08.771385"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 48,
+        "fields": {
+            "name": "Маршмеллоу",
+            "sku": "SKU-1048",
+            "description": "Свежий продукт: маршмеллоу",
+            "image": "",
+            "base_price": 429.3,
+            "is_active": true,
+            "category": 8,
+            "created_at": "2025-04-28T08:25:08.771400",
+            "updated_at": "2025-06-07T08:25:08.771406"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 49,
+        "fields": {
+            "name": "Гречка",
+            "sku": "SKU-1049",
+            "description": "Свежий продукт: гречка",
+            "image": "",
+            "base_price": 402.79,
+            "is_active": true,
+            "category": 9,
+            "created_at": "2025-04-27T08:25:08.771421",
+            "updated_at": "2025-06-07T08:25:08.771424"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 50,
+        "fields": {
+            "name": "Рис",
+            "sku": "SKU-1050",
+            "description": "Свежий продукт: рис",
+            "image": "",
+            "base_price": 352.08,
+            "is_active": true,
+            "category": 9,
+            "created_at": "2025-05-20T08:25:08.771437",
+            "updated_at": "2025-06-07T08:25:08.771440"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 51,
+        "fields": {
+            "name": "Макароны",
+            "sku": "SKU-1051",
+            "description": "Свежий продукт: макароны",
+            "image": "",
+            "base_price": 303.38,
+            "is_active": true,
+            "category": 9,
+            "created_at": "2025-06-07T08:25:08.771457",
+            "updated_at": "2025-06-07T08:25:08.771460"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 52,
+        "fields": {
+            "name": "Овсянка",
+            "sku": "SKU-1052",
+            "description": "Свежий продукт: овсянка",
+            "image": "",
+            "base_price": 178.07,
+            "is_active": true,
+            "category": 9,
+            "created_at": "2025-03-13T08:25:08.771476",
+            "updated_at": "2025-06-07T08:25:08.771480"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 53,
+        "fields": {
+            "name": "Булгур",
+            "sku": "SKU-1053",
+            "description": "Свежий продукт: булгур",
+            "image": "",
+            "base_price": 88.13,
+            "is_active": true,
+            "category": 9,
+            "created_at": "2025-05-22T08:25:08.771501",
+            "updated_at": "2025-06-07T08:25:08.771506"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 54,
+        "fields": {
+            "name": "Пшено",
+            "sku": "SKU-1054",
+            "description": "Свежий продукт: пшено",
+            "image": "",
+            "base_price": 216.25,
+            "is_active": true,
+            "category": 9,
+            "created_at": "2025-04-18T08:25:08.771520",
+            "updated_at": "2025-06-07T08:25:08.771523"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 55,
+        "fields": {
+            "name": "Кетчуп",
+            "sku": "SKU-1055",
+            "description": "Свежий продукт: кетчуп",
+            "image": "",
+            "base_price": 287.07,
+            "is_active": true,
+            "category": 10,
+            "created_at": "2025-06-04T08:25:08.771539",
+            "updated_at": "2025-06-07T08:25:08.771542"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 56,
+        "fields": {
+            "name": "Майонез",
+            "sku": "SKU-1056",
+            "description": "Свежий продукт: майонез",
+            "image": "",
+            "base_price": 344.1,
+            "is_active": true,
+            "category": 10,
+            "created_at": "2025-05-23T08:25:08.771553",
+            "updated_at": "2025-06-07T08:25:08.771556"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 57,
+        "fields": {
+            "name": "Горчица",
+            "sku": "SKU-1057",
+            "description": "Свежий продукт: горчица",
+            "image": "",
+            "base_price": 25.07,
+            "is_active": true,
+            "category": 10,
+            "created_at": "2025-03-24T08:25:08.771566",
+            "updated_at": "2025-06-07T08:25:08.771569"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 58,
+        "fields": {
+            "name": "Соль",
+            "sku": "SKU-1058",
+            "description": "Свежий продукт: соль",
+            "image": "",
+            "base_price": 62.15,
+            "is_active": true,
+            "category": 10,
+            "created_at": "2025-06-04T08:25:08.771578",
+            "updated_at": "2025-06-07T08:25:08.771582"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 59,
+        "fields": {
+            "name": "Перец",
+            "sku": "SKU-1059",
+            "description": "Свежий продукт: перец",
+            "image": "",
+            "base_price": 442.85,
+            "is_active": true,
+            "category": 10,
+            "created_at": "2025-05-22T08:25:08.771598",
+            "updated_at": "2025-06-07T08:25:08.771601"
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 60,
+        "fields": {
+            "name": "Соевый соус",
+            "sku": "SKU-1060",
+            "description": "Свежий продукт: соевый соус",
+            "image": "",
+            "base_price": 498.18,
+            "is_active": true,
+            "category": 10,
+            "created_at": "2025-06-03T08:25:08.771624",
+            "updated_at": "2025-06-07T08:25:08.771629"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 1,
+        "fields": {
+            "store": "globus",
+            "product": 1,
+            "price": 37.52,
+            "created_at": "2025-06-07T08:25:08.770414"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 2,
+        "fields": {
+            "store": "narodny",
+            "product": 1,
+            "price": 327.87,
+            "created_at": "2025-06-07T08:25:08.770421"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 3,
+        "fields": {
+            "store": "borsok",
+            "product": 2,
+            "price": 97.11,
+            "created_at": "2025-06-07T08:25:08.770444"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 4,
+        "fields": {
+            "store": "narodny",
+            "product": 2,
+            "price": 453.01,
+            "created_at": "2025-06-07T08:25:08.770447"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 5,
+        "fields": {
+            "store": "globus",
+            "product": 3,
+            "price": 90.94,
+            "created_at": "2025-06-07T08:25:08.770461"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 6,
+        "fields": {
+            "store": "narodny",
+            "product": 4,
+            "price": 227.31,
+            "created_at": "2025-06-07T08:25:08.770481"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 7,
+        "fields": {
+            "store": "globus",
+            "product": 4,
+            "price": 495.52,
+            "created_at": "2025-06-07T08:25:08.770485"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 8,
+        "fields": {
+            "store": "borsok",
+            "product": 4,
+            "price": 360.14,
+            "created_at": "2025-06-07T08:25:08.770489"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 9,
+        "fields": {
+            "store": "globus",
+            "product": 5,
+            "price": 299.07,
+            "created_at": "2025-06-07T08:25:08.770505"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 10,
+        "fields": {
+            "store": "spar",
+            "product": 5,
+            "price": 405.38,
+            "created_at": "2025-06-07T08:25:08.770508"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 11,
+        "fields": {
+            "store": "borsok",
+            "product": 5,
+            "price": 547.18,
+            "created_at": "2025-06-07T08:25:08.770511"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 12,
+        "fields": {
+            "store": "borsok",
+            "product": 6,
+            "price": 279.87,
+            "created_at": "2025-06-07T08:25:08.770525"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 13,
+        "fields": {
+            "store": "spar",
+            "product": 6,
+            "price": 138.0,
+            "created_at": "2025-06-07T08:25:08.770528"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 14,
+        "fields": {
+            "store": "narodny",
+            "product": 6,
+            "price": 318.01,
+            "created_at": "2025-06-07T08:25:08.770531"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 15,
+        "fields": {
+            "store": "narodny",
+            "product": 7,
+            "price": 333.98,
+            "created_at": "2025-06-07T08:25:08.770546"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 16,
+        "fields": {
+            "store": "globus",
+            "product": 7,
+            "price": 16.92,
+            "created_at": "2025-06-07T08:25:08.770549"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 17,
+        "fields": {
+            "store": "borsok",
+            "product": 7,
+            "price": 127.12,
+            "created_at": "2025-06-07T08:25:08.770554"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 18,
+        "fields": {
+            "store": "borsok",
+            "product": 8,
+            "price": 130.15,
+            "created_at": "2025-06-07T08:25:08.770576"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 19,
+        "fields": {
+            "store": "globus",
+            "product": 8,
+            "price": 154.17,
+            "created_at": "2025-06-07T08:25:08.770581"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 20,
+        "fields": {
+            "store": "borsok",
+            "product": 9,
+            "price": 118.61,
+            "created_at": "2025-06-07T08:25:08.770606"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 21,
+        "fields": {
+            "store": "globus",
+            "product": 9,
+            "price": 329.35,
+            "created_at": "2025-06-07T08:25:08.770609"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 22,
+        "fields": {
+            "store": "narodny",
+            "product": 10,
+            "price": 161.45,
+            "created_at": "2025-06-07T08:25:08.770624"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 23,
+        "fields": {
+            "store": "globus",
+            "product": 10,
+            "price": 33.57,
+            "created_at": "2025-06-07T08:25:08.770628"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 24,
+        "fields": {
+            "store": "borsok",
+            "product": 10,
+            "price": 314.64,
+            "created_at": "2025-06-07T08:25:08.770631"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 25,
+        "fields": {
+            "store": "borsok",
+            "product": 11,
+            "price": 398.69,
+            "created_at": "2025-06-07T08:25:08.770656"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 26,
+        "fields": {
+            "store": "spar",
+            "product": 11,
+            "price": 273.13,
+            "created_at": "2025-06-07T08:25:08.770659"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 27,
+        "fields": {
+            "store": "narodny",
+            "product": 12,
+            "price": 25.25,
+            "created_at": "2025-06-07T08:25:08.770674"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 28,
+        "fields": {
+            "store": "borsok",
+            "product": 12,
+            "price": 294.73,
+            "created_at": "2025-06-07T08:25:08.770677"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 29,
+        "fields": {
+            "store": "borsok",
+            "product": 13,
+            "price": 281.22,
+            "created_at": "2025-06-07T08:25:08.770697"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 30,
+        "fields": {
+            "store": "narodny",
+            "product": 13,
+            "price": 298.7,
+            "created_at": "2025-06-07T08:25:08.770701"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 31,
+        "fields": {
+            "store": "spar",
+            "product": 14,
+            "price": 254.59,
+            "created_at": "2025-06-07T08:25:08.770725"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 32,
+        "fields": {
+            "store": "borsok",
+            "product": 14,
+            "price": 207.24,
+            "created_at": "2025-06-07T08:25:08.770728"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 33,
+        "fields": {
+            "store": "globus",
+            "product": 14,
+            "price": 494.7,
+            "created_at": "2025-06-07T08:25:08.770731"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 34,
+        "fields": {
+            "store": "borsok",
+            "product": 15,
+            "price": 143.62,
+            "created_at": "2025-06-07T08:25:08.770751"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 35,
+        "fields": {
+            "store": "narodny",
+            "product": 15,
+            "price": 36.53,
+            "created_at": "2025-06-07T08:25:08.770756"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 36,
+        "fields": {
+            "store": "spar",
+            "product": 16,
+            "price": 238.56,
+            "created_at": "2025-06-07T08:25:08.770776"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 37,
+        "fields": {
+            "store": "globus",
+            "product": 16,
+            "price": 136.5,
+            "created_at": "2025-06-07T08:25:08.770781"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 38,
+        "fields": {
+            "store": "narodny",
+            "product": 17,
+            "price": 59.71,
+            "created_at": "2025-06-07T08:25:08.770804"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 39,
+        "fields": {
+            "store": "borsok",
+            "product": 17,
+            "price": 185.75,
+            "created_at": "2025-06-07T08:25:08.770810"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 40,
+        "fields": {
+            "store": "globus",
+            "product": 17,
+            "price": 154.02,
+            "created_at": "2025-06-07T08:25:08.770815"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 41,
+        "fields": {
+            "store": "narodny",
+            "product": 18,
+            "price": 475.8,
+            "created_at": "2025-06-07T08:25:08.770842"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 42,
+        "fields": {
+            "store": "borsok",
+            "product": 18,
+            "price": 74.26,
+            "created_at": "2025-06-07T08:25:08.770845"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 43,
+        "fields": {
+            "store": "spar",
+            "product": 18,
+            "price": 547.95,
+            "created_at": "2025-06-07T08:25:08.770848"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 44,
+        "fields": {
+            "store": "borsok",
+            "product": 19,
+            "price": 484.49,
+            "created_at": "2025-06-07T08:25:08.770862"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 45,
+        "fields": {
+            "store": "globus",
+            "product": 19,
+            "price": 504.22,
+            "created_at": "2025-06-07T08:25:08.770866"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 46,
+        "fields": {
+            "store": "spar",
+            "product": 19,
+            "price": 422.26,
+            "created_at": "2025-06-07T08:25:08.770870"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 47,
+        "fields": {
+            "store": "spar",
+            "product": 20,
+            "price": 48.86,
+            "created_at": "2025-06-07T08:25:08.770894"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 48,
+        "fields": {
+            "store": "narodny",
+            "product": 20,
+            "price": 242.07,
+            "created_at": "2025-06-07T08:25:08.770906"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 49,
+        "fields": {
+            "store": "borsok",
+            "product": 20,
+            "price": 515.53,
+            "created_at": "2025-06-07T08:25:08.770911"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 50,
+        "fields": {
+            "store": "spar",
+            "product": 21,
+            "price": 316.82,
+            "created_at": "2025-06-07T08:25:08.770936"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 51,
+        "fields": {
+            "store": "narodny",
+            "product": 21,
+            "price": 134.07,
+            "created_at": "2025-06-07T08:25:08.770939"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 52,
+        "fields": {
+            "store": "narodny",
+            "product": 22,
+            "price": 530.5,
+            "created_at": "2025-06-07T08:25:08.770951"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 53,
+        "fields": {
+            "store": "narodny",
+            "product": 23,
+            "price": 168.48,
+            "created_at": "2025-06-07T08:25:08.770964"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 54,
+        "fields": {
+            "store": "spar",
+            "product": 23,
+            "price": 341.01,
+            "created_at": "2025-06-07T08:25:08.770967"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 55,
+        "fields": {
+            "store": "spar",
+            "product": 24,
+            "price": 34.6,
+            "created_at": "2025-06-07T08:25:08.770980"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 56,
+        "fields": {
+            "store": "narodny",
+            "product": 25,
+            "price": 276.61,
+            "created_at": "2025-06-07T08:25:08.770995"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 57,
+        "fields": {
+            "store": "spar",
+            "product": 25,
+            "price": 390.38,
+            "created_at": "2025-06-07T08:25:08.770999"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 58,
+        "fields": {
+            "store": "globus",
+            "product": 25,
+            "price": 380.4,
+            "created_at": "2025-06-07T08:25:08.771002"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 59,
+        "fields": {
+            "store": "borsok",
+            "product": 26,
+            "price": 188.73,
+            "created_at": "2025-06-07T08:25:08.771015"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 60,
+        "fields": {
+            "store": "spar",
+            "product": 26,
+            "price": 465.91,
+            "created_at": "2025-06-07T08:25:08.771018"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 61,
+        "fields": {
+            "store": "globus",
+            "product": 26,
+            "price": 296.77,
+            "created_at": "2025-06-07T08:25:08.771021"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 62,
+        "fields": {
+            "store": "spar",
+            "product": 27,
+            "price": 54.6,
+            "created_at": "2025-06-07T08:25:08.771034"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 63,
+        "fields": {
+            "store": "borsok",
+            "product": 28,
+            "price": 546.14,
+            "created_at": "2025-06-07T08:25:08.771047"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 64,
+        "fields": {
+            "store": "spar",
+            "product": 28,
+            "price": 478.54,
+            "created_at": "2025-06-07T08:25:08.771050"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 65,
+        "fields": {
+            "store": "globus",
+            "product": 28,
+            "price": 386.07,
+            "created_at": "2025-06-07T08:25:08.771053"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 66,
+        "fields": {
+            "store": "globus",
+            "product": 29,
+            "price": 386.77,
+            "created_at": "2025-06-07T08:25:08.771075"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 67,
+        "fields": {
+            "store": "globus",
+            "product": 30,
+            "price": 456.99,
+            "created_at": "2025-06-07T08:25:08.771098"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 68,
+        "fields": {
+            "store": "narodny",
+            "product": 30,
+            "price": 518.89,
+            "created_at": "2025-06-07T08:25:08.771105"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 69,
+        "fields": {
+            "store": "narodny",
+            "product": 31,
+            "price": 315.35,
+            "created_at": "2025-06-07T08:25:08.771125"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 70,
+        "fields": {
+            "store": "borsok",
+            "product": 31,
+            "price": 476.19,
+            "created_at": "2025-06-07T08:25:08.771128"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 71,
+        "fields": {
+            "store": "borsok",
+            "product": 32,
+            "price": 48.52,
+            "created_at": "2025-06-07T08:25:08.771149"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 72,
+        "fields": {
+            "store": "borsok",
+            "product": 33,
+            "price": 234.03,
+            "created_at": "2025-06-07T08:25:08.771164"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 73,
+        "fields": {
+            "store": "narodny",
+            "product": 33,
+            "price": 310.77,
+            "created_at": "2025-06-07T08:25:08.771167"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 74,
+        "fields": {
+            "store": "spar",
+            "product": 34,
+            "price": 343.64,
+            "created_at": "2025-06-07T08:25:08.771180"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 75,
+        "fields": {
+            "store": "borsok",
+            "product": 34,
+            "price": 420.76,
+            "created_at": "2025-06-07T08:25:08.771183"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 76,
+        "fields": {
+            "store": "narodny",
+            "product": 35,
+            "price": 370.04,
+            "created_at": "2025-06-07T08:25:08.771196"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 77,
+        "fields": {
+            "store": "narodny",
+            "product": 36,
+            "price": 157.73,
+            "created_at": "2025-06-07T08:25:08.771209"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 78,
+        "fields": {
+            "store": "spar",
+            "product": 36,
+            "price": 75.27,
+            "created_at": "2025-06-07T08:25:08.771212"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 79,
+        "fields": {
+            "store": "borsok",
+            "product": 36,
+            "price": 229.73,
+            "created_at": "2025-06-07T08:25:08.771216"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 80,
+        "fields": {
+            "store": "spar",
+            "product": 37,
+            "price": 311.27,
+            "created_at": "2025-06-07T08:25:08.771230"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 81,
+        "fields": {
+            "store": "borsok",
+            "product": 37,
+            "price": 26.35,
+            "created_at": "2025-06-07T08:25:08.771233"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 82,
+        "fields": {
+            "store": "narodny",
+            "product": 37,
+            "price": 211.02,
+            "created_at": "2025-06-07T08:25:08.771236"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 83,
+        "fields": {
+            "store": "borsok",
+            "product": 38,
+            "price": 259.48,
+            "created_at": "2025-06-07T08:25:08.771249"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 84,
+        "fields": {
+            "store": "narodny",
+            "product": 39,
+            "price": 343.39,
+            "created_at": "2025-06-07T08:25:08.771262"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 85,
+        "fields": {
+            "store": "globus",
+            "product": 40,
+            "price": 509.3,
+            "created_at": "2025-06-07T08:25:08.771274"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 86,
+        "fields": {
+            "store": "narodny",
+            "product": 41,
+            "price": 43.89,
+            "created_at": "2025-06-07T08:25:08.771287"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 87,
+        "fields": {
+            "store": "spar",
+            "product": 41,
+            "price": 236.16,
+            "created_at": "2025-06-07T08:25:08.771290"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 88,
+        "fields": {
+            "store": "borsok",
+            "product": 41,
+            "price": 350.12,
+            "created_at": "2025-06-07T08:25:08.771292"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 89,
+        "fields": {
+            "store": "borsok",
+            "product": 42,
+            "price": 128.04,
+            "created_at": "2025-06-07T08:25:08.771306"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 90,
+        "fields": {
+            "store": "borsok",
+            "product": 43,
+            "price": 252.87,
+            "created_at": "2025-06-07T08:25:08.771320"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 91,
+        "fields": {
+            "store": "globus",
+            "product": 43,
+            "price": 19.93,
+            "created_at": "2025-06-07T08:25:08.771325"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 92,
+        "fields": {
+            "store": "borsok",
+            "product": 44,
+            "price": 451.35,
+            "created_at": "2025-06-07T08:25:08.771338"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 93,
+        "fields": {
+            "store": "globus",
+            "product": 44,
+            "price": 391.89,
+            "created_at": "2025-06-07T08:25:08.771341"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 94,
+        "fields": {
+            "store": "spar",
+            "product": 44,
+            "price": 151.98,
+            "created_at": "2025-06-07T08:25:08.771344"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 95,
+        "fields": {
+            "store": "narodny",
+            "product": 45,
+            "price": 401.61,
+            "created_at": "2025-06-07T08:25:08.771357"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 96,
+        "fields": {
+            "store": "borsok",
+            "product": 46,
+            "price": 508.11,
+            "created_at": "2025-06-07T08:25:08.771369"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 97,
+        "fields": {
+            "store": "narodny",
+            "product": 46,
+            "price": 474.08,
+            "created_at": "2025-06-07T08:25:08.771373"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 98,
+        "fields": {
+            "store": "borsok",
+            "product": 47,
+            "price": 284.37,
+            "created_at": "2025-06-07T08:25:08.771394"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 99,
+        "fields": {
+            "store": "globus",
+            "product": 48,
+            "price": 259.63,
+            "created_at": "2025-06-07T08:25:08.771416"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 100,
+        "fields": {
+            "store": "globus",
+            "product": 49,
+            "price": 121.49,
+            "created_at": "2025-06-07T08:25:08.771430"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 101,
+        "fields": {
+            "store": "spar",
+            "product": 49,
+            "price": 349.16,
+            "created_at": "2025-06-07T08:25:08.771433"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 102,
+        "fields": {
+            "store": "narodny",
+            "product": 50,
+            "price": 63.58,
+            "created_at": "2025-06-07T08:25:08.771447"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 103,
+        "fields": {
+            "store": "borsok",
+            "product": 50,
+            "price": 503.32,
+            "created_at": "2025-06-07T08:25:08.771450"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 104,
+        "fields": {
+            "store": "spar",
+            "product": 50,
+            "price": 34.69,
+            "created_at": "2025-06-07T08:25:08.771453"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 105,
+        "fields": {
+            "store": "spar",
+            "product": 51,
+            "price": 243.85,
+            "created_at": "2025-06-07T08:25:08.771467"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 106,
+        "fields": {
+            "store": "narodny",
+            "product": 51,
+            "price": 368.94,
+            "created_at": "2025-06-07T08:25:08.771470"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 107,
+        "fields": {
+            "store": "borsok",
+            "product": 51,
+            "price": 263.05,
+            "created_at": "2025-06-07T08:25:08.771473"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 108,
+        "fields": {
+            "store": "borsok",
+            "product": 52,
+            "price": 379.25,
+            "created_at": "2025-06-07T08:25:08.771488"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 109,
+        "fields": {
+            "store": "spar",
+            "product": 52,
+            "price": 116.95,
+            "created_at": "2025-06-07T08:25:08.771493"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 110,
+        "fields": {
+            "store": "globus",
+            "product": 53,
+            "price": 312.53,
+            "created_at": "2025-06-07T08:25:08.771514"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 111,
+        "fields": {
+            "store": "narodny",
+            "product": 54,
+            "price": 198.91,
+            "created_at": "2025-06-07T08:25:08.771529"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 112,
+        "fields": {
+            "store": "spar",
+            "product": 54,
+            "price": 326.81,
+            "created_at": "2025-06-07T08:25:08.771532"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 113,
+        "fields": {
+            "store": "globus",
+            "product": 54,
+            "price": 165.98,
+            "created_at": "2025-06-07T08:25:08.771535"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 114,
+        "fields": {
+            "store": "narodny",
+            "product": 55,
+            "price": 314.14,
+            "created_at": "2025-06-07T08:25:08.771549"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 115,
+        "fields": {
+            "store": "narodny",
+            "product": 56,
+            "price": 80.87,
+            "created_at": "2025-06-07T08:25:08.771562"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 116,
+        "fields": {
+            "store": "borsok",
+            "product": 57,
+            "price": 521.2,
+            "created_at": "2025-06-07T08:25:08.771575"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 117,
+        "fields": {
+            "store": "narodny",
+            "product": 58,
+            "price": 460.19,
+            "created_at": "2025-06-07T08:25:08.771588"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 118,
+        "fields": {
+            "store": "borsok",
+            "product": 58,
+            "price": 507.92,
+            "created_at": "2025-06-07T08:25:08.771591"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 119,
+        "fields": {
+            "store": "spar",
+            "product": 58,
+            "price": 156.05,
+            "created_at": "2025-06-07T08:25:08.771595"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 120,
+        "fields": {
+            "store": "narodny",
+            "product": 59,
+            "price": 411.04,
+            "created_at": "2025-06-07T08:25:08.771608"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 121,
+        "fields": {
+            "store": "spar",
+            "product": 59,
+            "price": 297.81,
+            "created_at": "2025-06-07T08:25:08.771612"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 122,
+        "fields": {
+            "store": "borsok",
+            "product": 59,
+            "price": 474.21,
+            "created_at": "2025-06-07T08:25:08.771618"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 123,
+        "fields": {
+            "store": "narodny",
+            "product": 60,
+            "price": 106.38,
+            "created_at": "2025-06-07T08:25:08.771639"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 124,
+        "fields": {
+            "store": "globus",
+            "product": 60,
+            "price": 38.96,
+            "created_at": "2025-06-07T08:25:08.771644"
+        }
+    },
+    {
+        "model": "main.storeproduct",
+        "pk": 125,
+        "fields": {
+            "store": "borsok",
+            "product": 60,
+            "price": 220.11,
+            "created_at": "2025-06-07T08:25:08.771650"
+        }
+    }
+]

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}Главная | Продукты{% endblock %}
+{% block css %}
+<style>
+        .category-card:hover {
+            transform: scale(1.03);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .product-card {
+            height: 100%;
+        }
+        .product-img {
+            object-fit: cover;
+            height: 180px;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+
+<!-- Категории -->
+<section class="container mb-5">
+    <h2 class="mb-4 text-center">Категории</h2>
+    <div class="row g-4">
+        {% for category in categories %}
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="{% url 'category_products' category.id %}" class="text-decoration-none text-dark">
+                    <div class="card category-card text-center p-3 shadow-sm h-100">
+                        <h5 class="mb-0">{{ category.title }}</h5>
+                    </div>
+                </a>
+            </div>
+        {% empty %}
+            <p class="text-center">Категории пока не добавлены.</p>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Рандомные продукты -->
+<section class="container mb-5">
+    <h2 class="mb-4 text-center">Случайные продукты</h2>
+    <div class="row g-4">
+        {% for product in random_products %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="{% url 'product_detail' product.id %}" class="text-decoration-none text-dark">
+
+                <div class="card product-card shadow-sm">
+                    {% if product.image %}
+                        <img src="{{ product.image.url }}" class="card-img-top product-img" alt="{{ product.name }}">
+                    {% else %}
+                        <div class="bg-secondary text-white d-flex align-items-center justify-content-center product-img">
+                            Нет изображения
+                        </div>
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text text-muted">{{ product.base_price }} сом</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
